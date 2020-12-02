@@ -19,15 +19,17 @@ data("pushups")
 
 <!--In this section you explain what you are trying to show. Where did the data come from? What is the research or other question you are trying to answer?!-->
 
-$H_0$ Null Hypothesis is there is no difference in the average number of pushups players can do in a matter of two minutes based on the position they play.  
+$H_0$ Null Hypothesis is there is no difference between the average number of pushups of line vs skill players   
 
-$H_A$ Alternate Hypothesis is that there is a difference difference in the average number of pushups players can do in a matter of two minutes based on the position they play.
+$H_A$The average number of pushups done by line players is statistically different than that of skill players. 
 
 The required data is provided in a file called "pushups" in which will help me find out if the $H_0$ or $H_A$ is correct. The position of the player will be used as well as the categories of line and skill to uncover if there is a difference in regards to how many pushups they can do based on their position. 
 
 # Methods
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+Numerical~cat will be used to obtain information based on the charts since pushups are considered numerical and position is categorical therefore Numerical-Cat is the best option to find our answer.
 
 # Results
 
@@ -38,6 +40,9 @@ The required data is provided in a file called "pushups" in which will help me f
 ### Graphical Descriptive Results
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+ 
+
 
 ### Numerical Descriptive Results
 
