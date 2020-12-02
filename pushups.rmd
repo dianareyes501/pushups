@@ -41,16 +41,39 @@ Numerical~cat will be used to obtain information based on the charts since pushu
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
- 
+```{r}
+boxplot(pushups~position,data=pushups)
+```
 
+The boxplot reflects that thoses who have the position of LINE, they did between 12 to 28 pushups while on the other hand, players that had the SKILL position didn anywhere between 30 to 55 pushups. 
+
+
+```{r}
+basicCN <- ggplot(data=pushups,aes(x=pushups, y=position)) 
+basicCN + geom_boxplot()
+```
+
+The ggplot reflects that players in the LINE position can do 12 to 28 pushups as where players in the SKILL position can do anywhere from 31 to 58 pushups in which is at a staggering higher amount of pushups.
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(pushups~position,data=pushups)
+```
+
+The Numerical results conclude that players who Play in the SKILL position are significantly out perform the players that are in the LINE position. The Results show detailed min, median, max and mean of both positions in which SKILL position players do more pushups in all areas. 
+
 ## Inferential Results
 
+```{r}
+t.test(pushups~position,data=pushups)
+```
+
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+
+The t-test reflects a p-value of 9.421e-06 in which the  Alternative Hypothesis states there is a difference in the position a player plays in which makes a difference to how many pushups they can do.    
 
 
 # Discussion and Conclusion
