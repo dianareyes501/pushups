@@ -1,7 +1,7 @@
 ---
 title: "Who Does More Pushups"
-author: "Your Name"
-date: "Fall 2020"
+author: "Diana Reyes"
+date: "October 30, 2020"
 output:
 html_document:
 number_sections: true
