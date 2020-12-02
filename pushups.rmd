@@ -19,6 +19,12 @@ data("pushups")
 
 <!--In this section you explain what you are trying to show. Where did the data come from? What is the research or other question you are trying to answer?!-->
 
+$H_0$ Null Hypothesis is there is no difference in the average number of pushups players can do in a matter of two minutes based on the position they play.  
+
+$H_A$ Alternate Hypothesis is that there is a difference difference in the average number of pushups players can do in a matter of two minutes based on the position they play.
+
+The required data is provided in a file called "pushups" in which will help me find out if the $H_0$ or $H_A$ is correct. The position of the player will be used as well as the categories of line and skill to uncover if there is a difference in regards to how many pushups they can do based on their position. 
+
 # Methods
 
 <!--Decide on your methods: use "variable analysis" or other appropriate descriptors. Make sure to choose at least one graphical method and at least one numerical method.!-->
